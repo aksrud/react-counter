@@ -9,12 +9,12 @@ export default function Count() {
                 <h1>{count}</h1>
             </div>
             <div className={styles.count_btn}>
-                <div className={styles.increse} onClick={()=>setCount(count+1)}>
+                <button className={styles.increse} onClick={()=>setCount(count+1)}>
                     증가
-                </div>
-                <div className={styles.decrese} onClick={()=>setCount(count-1)}>
+                </button>
+                <button className={styles.decrese} onClick={()=>setCount(count-1)}>
                     감소
-                </div>
+                </button>
             </div>
         </div>
     );
